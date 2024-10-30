@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+body {
+    font-family:"Yu Mincho";
+  }
+
+ header {
+    position: fixed;                /*fixedで固定*/
+    top:        0;                         /*位置(上)*/
+    left:       0;                        /*位置(左)*/
+    width:      50%;                    /*幅100%*/
+    height:     250px;                  /* 高さ指定 */
+    padding:    20px;                 /* 余白指定 */
+    font-size:  20px;                /* 文字サイズ指定 */
+    background-color: powderblue; /* 背景色指定 */
+    /*opacity: 0;*/                      /*ここで透明度を指定*/
+}
+
+.header_space{
+    /*background-color:gainsboro;*/
+    /*position:relative;*/
+    /*top:0;*/
+    /*left:0;*/
+    /*color:black;*/
+    width:100%;
+    height:270px;
+    opacity: 0.5;   
+}
+
+.p0
+{
+    background-color:gainsboro;
+    position:relative;
+    top:0;
+    left:0;
+    color:black;
+    width:100%;
+    height:1500px;
+    opacity: 0.6;                      /*ここで透明度を指定*/
+}
+
+.p1{
+    background-color:yellowgreen;
+    position: absolute;  
+    top:50px;
+    left:0px;
+    color:brown;
+    width:      90%;                    /*幅100%*/
+    height:     auto; 
+    opacity: 0.6;                      /*ここで透明度を指定*/
+}
+
+.p2{
+    position: absolute;
+    top:100px;
+    left:0;
+    color:blue;
+    background-color:red;
+    width:      90%;                    /*幅100%*/
+    height:     auto; 
+}
+
+.p3{
+    /*position: absolute;*/
+    bottom:150;
+    left:0;
+    color:blue;
+    background-color:purple;
+    width:      20%;                    /*幅100%*/
+    height:     250px; 
+}
